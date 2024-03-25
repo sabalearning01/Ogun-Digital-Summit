@@ -2,15 +2,16 @@
 module.exports = {
   content: ["./public/*.html"],
   theme: {
-  extend: {
     screens: {
-        'smll': '320px',
-        'sm': '640px',
-        'point': '643px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-      },
+      'smll': '320px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+  extend: {
+    
       backgroundImage:{
         'bg': "url('public/img/People at the office during a work day.svg')",
 
